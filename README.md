@@ -1,8 +1,8 @@
 # 🧹 CloudSweep – Automated AWS Resource Cleanup (Serverless)
 
-CloudSweep is a **serverless, multi-account cloud cleanup automation tool** designed to reduce AWS cost by identifying and deleting unused or stale cloud resources.  
-It uses AWS Lambda, EventBridge, SNS, and Terraform to create a fully automated, scalable, and production-ready cleanup system.
+CloudSweep – AWS Cleanup Automation (Lambda • Terraform • Python • Cross-Account)
 
+Developed a serverless automation tool that scans and deletes stale AWS resources across multiple AWS accounts using a centralized Lambda with STS AssumeRole. Cleanup includes EC2 instances, unattached EBS volumes, old snapshots, unused AMIs, and unassociated Elastic IPs. Implemented dry-run mode, SNS alerts, CloudWatch logging, and IAM least-privilege roles. All infrastructure was provisioned with Terraform using S3 + DynamoDB backend.
 ---
 
 # 🚀 Features
